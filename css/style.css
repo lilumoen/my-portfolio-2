@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h3 {
@@ -58,9 +58,14 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
+.img-fluid {
+  line-height: 2;
+}
 .col-md-6 .primary-link {
   margin-top: 20px;
+  justify-content: center;
+  display: block;
+  padding: 2px 1px;
   color: var(--secondary-color);
   text-decoration: none;
   border: 1px solid var(--primary-color);
@@ -99,4 +104,36 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.app-texts {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  body {
+    max-width: 150%;
+    margin-left: 0 auto;
+  }
+  .container-fluid,
+  .app-texts {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 4px;
+    margin-top: 40px;
+  }
+}
+
+.primary-link {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.5;
 }
