@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #07046a;
+  --secondary-color: #f1eff7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -106,7 +106,7 @@ p {
   text-decoration: underline;
 }
 .app-texts {
-  margin-top: 80px;
+  margin-top: 170px;
   margin-bottom: 30px;
 }
 @media (max-width: 500px) {
@@ -130,7 +130,9 @@ p {
 }
 
 .primary-link {
-  max-width: 100%;
+  display: block;
+  width: 140px;
+  margin: 0 auto;
 }
 
 h1 {
